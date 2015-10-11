@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/paranoiaproject/nodepayu/issues"
   },
-  "homepage": "https://github.com/paranoiaproject/nodepayu"
+  "homepage": "https://github.com/paranoiaproject/nodepayu",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
 }
