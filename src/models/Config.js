@@ -33,7 +33,7 @@ var Config = (function () {
        * @return merchantId
       */
       getMerchantId : function () {
-      return constructor.merchantId;
+        return constructor.merchantId;
       },
 
       /**
@@ -43,7 +43,7 @@ var Config = (function () {
        * @return secretKey
       */
       getSecretKey : function () {
-      return constructor.secretKey;
+        return constructor.secretKey;
       },
 
       /**
@@ -63,7 +63,7 @@ var Config = (function () {
        * @return loyaltyInquiryEndPointUrl
       */
       getLoyaltyInquiryEndPointUrl : function () {
-      return constructor.loyaltyInquiryEndPointUrl;
+        return constructor.loyaltyInquiryEndPointUrl;
       },
 
       /**
@@ -73,7 +73,7 @@ var Config = (function () {
        * @return paymentReturnPointUrl
       */
       getPaymentReturnPointUrl : function () {
-      return constructor.paymentReturnPointUrl;
+        return constructor.paymentReturnPointUrl;
       },
 
       /**
