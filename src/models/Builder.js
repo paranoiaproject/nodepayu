@@ -38,6 +38,15 @@ var Builder = (function () {
       */
       setCard : function (card) {
         constructor.card = card;
+      },
+
+      /**
+       * getCard() is a getter method to get the card instance
+       *
+       * @noparam
+      */
+      getCard : function () {
+        return constructor.card;
       }
 
     }
