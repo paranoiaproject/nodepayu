@@ -45,6 +45,11 @@ var Basket = (function () {
         return constructor.collection;
       },
 
+      /**
+       * getTotalPrice() is a getter method to fetch the total price
+       *
+       * @noparam
+      */
       getTotalPrice : function () {
         var sum = 0.0;
         for (var counter = 0, len = constructor.collection.length; counter < len; counter++) {
