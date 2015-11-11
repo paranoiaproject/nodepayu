@@ -1,16 +1,3 @@
-/*
-$firstName = null,
-$lastName = null,
-$email = null,
-$phone = null,
-$company = null,
-$address = null,
-$zipCode = null,
-$city = null,
-$state = null,
-$countryCode = null
-*/
-
 'use strict';
 
 /**
@@ -89,7 +76,43 @@ var Delivery = (function () {
             
             getCountryCode : function () {
                 return constructor.countryCode;
-            }
+            },
+
+            setFirstName : function (firstName) {
+                constructor.firstName = firstName;
+            },
+
+            setLastName : function (lastName) {
+                constructor.lastName = lastName;
+            },
+
+            setEmail : function (email) {
+                constructor.email = email;
+            },
+
+            setPhone : function (phone) {
+                constructor.phone = phone;
+            },            
+
+            setCompany : function (company) {
+                constructor.company = company;
+            },
+
+            setAddress : function (address) {
+                constructor.address = address;
+            },
+
+            setZipCode : function (zipCode) {
+                constructor.zipCode = zipCode;
+            },  
+
+            setCity : function (city) {
+                constructor.city = city;
+            },                   
+
+            setCountryCode : function (countryCode) {
+                constructor.countryCode = countryCode;
+            }               
             
         }
         
