@@ -16,106 +16,196 @@
 
 var Delivery = (function () {
 
-    return function (firstName, lastName, email, phone, company, address, zipCode, city, state, countryCode) {
+  return function (firstName, lastName, email, phone, company, address, zipCode, city, state, countryCode) {
+      
+    var constructor = new Object();
+    
+    constructor.firstName;
+    
+    constructor.lastName;
+    
+    constructor.email;
+    
+    constructor.phone;
+    
+    constructor.company;
+    
+    constructor.address;
+    
+    constructor.zipCode;
+    
+    constructor.city;
+    
+    constructor.state;
+    
+    constructor.countryCode;
+    
+    return {
         
-        var constructor = new Object();
-        
-        constructor.firstName;
-        
-        constructor.lastName;
-        
-        constructor.email;
-        
-        constructor.phone;
-        
-        constructor.company;
-        
-        constructor.address;
-        
-        constructor.zipCode;
-        
-        constructor.city;
-        
-        constructor.state;
-        
-        constructor.countryCode;
-        
-        return {
-            
-            getFirstName : function () {
-                return constructor.firstName;
-            },
-            
-            getLastName : function () {
-                return constructor.lastName;
-            },
-            
-            getEmail : function () {
-                return constructor.email;
-            },
-            
-            getPhone : function () {
-                return constructor.phone;
-            },
-            
-            getCompany : function () {
-                return constructor.company;
-            },
-            
-            getAddress : function () {
-                return constructor.address;
-            },
-            
-            getZipCode : function () {
-                return constructor.zipCode;
-            },
-,
-            getCity : function () {
-                return constructor.city;
-            },
-            
-            getCountryCode : function () {
-                return constructor.countryCode;
-            },
+      /**
+       * getFirstName() is a getter method to get the user name
+       *
+       * @noparam
+      */
+      getFirstName : function () {
+        return constructor.firstName;
+      },  
+      
+      /**
+       * getLastName() is a getter method to get the user last name
+       *
+       * @noparam
+      */
+      getLastName : function () {
+        return constructor.lastName;
+      },
+      
+      /**
+       * getEmail() is a getter method to get the email address
+       *
+       * @noparam
+      */
+      getEmail : function () {
+        return constructor.email;
+      },
+      
+      /**
+       * getPhone() is a getter method to get the phone number
+       *
+       * @noparam
+      */
+      getPhone : function () {
+        return constructor.phone;
+      },
+      
+      /**
+       * getCompany() is a getter method to get the company name
+       *
+       * @noparam
+      */
+      getCompany : function () {
+        return constructor.company;
+      },
+      
+      /**
+       * getAddress() is a getter method to get the current address
+       *
+       * @noparam
+      */
+      getAddress : function () {
+        return constructor.address;
+      },
+      
+      /**
+       * getZipCode() is a getter method to get the zip code
+       *
+       * @noparam
+      */
+      getZipCode : function () {
+        return constructor.zipCode;
+      },
 
-            setFirstName : function (firstName) {
-                constructor.firstName = firstName;
-            },
+      /**
+       * getCity() is a getter method to get the city name
+       *
+       * @noparam
+      */
+      getCity : function () {
+        return constructor.city;
+      },
+      
+      /**
+       * getCountryCode() is a getter method to get the country code
+       *
+       * @noparam
+      */
+      getCountryCode : function () {
+        return constructor.countryCode;
+      },
 
-            setLastName : function (lastName) {
-                constructor.lastName = lastName;
-            },
+      /**
+       * setFirstName() is a setter method for the first name
+       *
+       * @param {string} firstName
+      */
+      setFirstName : function (firstName) {
+        constructor.firstName = firstName;
+      },
 
-            setEmail : function (email) {
-                constructor.email = email;
-            },
+      /**
+       * setLastName() is a setter method for the last name
+       *
+       * @param {string} lastName
+      */
+      setLastName : function (lastName) {
+        constructor.lastName = lastName;
+      },
 
-            setPhone : function (phone) {
-                constructor.phone = phone;
-            },            
+      /**
+       * setEmail() is a setter method for the email address
+       *
+       * @param {string} email
+      */
+      setEmail : function (email) {
+        constructor.email = email;
+      },
 
-            setCompany : function (company) {
-                constructor.company = company;
-            },
+      /**
+       * setPhone() is a setter method for the phone number
+       *
+       * @param {string} phone
+      */
+      setPhone : function (phone) {
+        constructor.phone = phone;
+      },            
 
-            setAddress : function (address) {
-                constructor.address = address;
-            },
+      /**
+       * setCompany() is a setter method for the company
+       *
+       * @param {string} company
+      */
+      setCompany : function (company) {
+        constructor.company = company;
+      },
 
-            setZipCode : function (zipCode) {
-                constructor.zipCode = zipCode;
-            },  
+      /**
+       * setAddress() is a setter method for the address
+       *
+       * @param {string} address
+      */
+      setAddress : function (address) {
+        constructor.address = address;
+      },
 
-            setCity : function (city) {
-                constructor.city = city;
-            },                   
+      /**
+       * setZipCode() is a setter method for the zip code
+       *
+       * @param {number} zipCode
+      */
+      setZipCode : function (zipCode) {
+        constructor.zipCode = zipCode;
+      },  
 
-            setCountryCode : function (countryCode) {
-                constructor.countryCode = countryCode;
-            }               
-            
-        }
+      /**
+       * setCity() is a setter method for the city
+       *
+       * @param {string} city
+      */
+      setCity : function (city) {
+        constructor.city = city;
+      },                   
+
+      /**
+       * setCountryCode() is a setter method for the country code
+       *
+       * @param {number} countryCode
+      */
+      setCountryCode : function (countryCode) {
+        constructor.countryCode = countryCode;
+      }               
         
     }
+      
+  }
     
 })();
