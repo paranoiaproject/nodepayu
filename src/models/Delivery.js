@@ -2,16 +2,16 @@
 
 /**
  * Delivery is the model for the delivery options
- * @param {number} firstName
- * @param {number} lastName
- * @param {number} email
+ * @param {string} firstName
+ * @param {string} lastName
+ * @param {string} email
  * @param {number} phone
- * @param {number} company
- * @param {number} address
- * @param {number} zipCode
- * @param {number} city
- * @param {number} state
- * @param {number} countryCode
+ * @param {strgin} company
+ * @param {string} address
+ * @param {string} zipCode
+ * @param {string} city
+ * @param {string} state
+ * @param {string} countryCode
  */
 
 var Delivery = (function () {
