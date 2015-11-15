@@ -39,11 +39,11 @@ var Order = (function () {
 
     return {
 
-    	/**
-    	 * setCode() is a setter method for the code
-    	 *
-    	 * @param {string} code
-    	*/
+			/**
+			 * setCode() is a setter method for the code
+			 *
+			 * @param {string} code
+			*/
 			setCode : function (code) {
 				constructor.code = code;
 			},
