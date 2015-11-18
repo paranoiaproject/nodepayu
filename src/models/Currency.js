@@ -1,14 +1,14 @@
 'use strict';
 
 /**
- * Currency is the model for the billing process
+ * Currency is the model for the current currency
  * @param {number} code
  */
 var Currency = (function () {
 
   return function (code) {
 
-  	var constructor = new Object();
+    var constructor = new Object();
 
     constructor.code = 0;
 
