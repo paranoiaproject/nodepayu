@@ -25,20 +25,20 @@ var Currency = (function () {
       },
 
       /**
-			 * setCode() is a setter method the code
-			 *
-			 * @param {string} firstName
-			*/
+       * setCode() is a setter method the code
+       *
+       * @param {string} firstName
+      */
       setCode : function (code) {
         constructor.code = code;
       },
 
       /**
-			 * convertCodeToString() is a string converter for the number-typed code
-			 *
-			 * @noparam
-			 * @return {string} constructor.code
-			*/
+       * convertCodeToString() is a string converter for the number-typed code
+       *
+       * @noparam
+       * @return {string} constructor.code
+      */
       convertCodeToString : function (code) {
         return '' + code.toString();
       }
