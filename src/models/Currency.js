@@ -10,16 +10,16 @@ var Currency = (function () {
 
   	var constructor = new Object();
 
-    constructor.code = null;
+    constructor.code = 0;
 
     return {
 
       /**
-			 * getCode() is a getter method the code
-			 *
-			 * @noparam
-			 * @return {number} constructor.code
-			*/
+       * getCode() is a getter method the code
+       *
+       * @noparam
+       * @return {number} constructor.code
+      */
       getCode : function () {
         return constructor.code;
       },
