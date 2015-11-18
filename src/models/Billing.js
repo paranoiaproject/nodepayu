@@ -1,12 +1,16 @@
 'use strict';
 
 /**
- * Billing is the model for the bank card
- * @param {number} number
- * @param {number} cvv
- * @param {number} month
- * @param {number} year
- * @param {string} owner
+ * Billing is the model for the billing process
+ * @param {string} firstName
+ * @param {string} lastName
+ * @param {string} email
+ * @param {string} phone
+ * @param {string} fax
+ * @param {string} address
+ * @param {string} zipCode
+ * @param {string} city
+ * @param {string} state
  */
 var Billing = (function () {
 
@@ -37,58 +41,58 @@ var Billing = (function () {
   	return {
 
 			/**
-  		 * setFirstName() is a setter method the current first name
-  		 *
-  		 * @param {string} firstName
-  		*/
-  		setFirstName : function (firstName) {
-  		  constructor.firstName = firstName;
-  		},
+			 * setFirstName() is a setter method the current first name
+			 *
+			 * @param {string} firstName
+			*/
+			setFirstName : function (firstName) {
+			  constructor.firstName = firstName;
+			},
 
-  		/**
-  		 * setLastName() is a setter method the current last name
-  		 *
-  		 * @param {string} lastName
-  		*/
-  		setLastName : function (lastName) {
-  		  constructor.lastName = lastName;
-  		},
+			/**
+			 * setLastName() is a setter method the current last name
+			 *
+			 * @param {string} lastName
+			*/
+			setLastName : function (lastName) {
+			  constructor.lastName = lastName;
+			},
 
-  		/**
-  		 * setEmail() is a setter method the current email
-  		 *
-  		 * @param {string} email
-  		*/
-  		setEmail : function (email) {
-  		  constructor.email = email;
-  		},
+			/**
+			 * setEmail() is a setter method the current email
+			 *
+			 * @param {string} email
+			*/
+			setEmail : function (email) {
+			  constructor.email = email;
+			},
 
-  		/**
-  		 * setPhone() is a setter method the current phone
-  		 *
-  		 * @param {string} phone
-  		*/
-  		setPhone : function (phone) {
-  		  constructor.phone = phone;
-  		},
+			/**
+			 * setPhone() is a setter method the current phone
+			 *
+			 * @param {string} phone
+			*/
+			setPhone : function (phone) {
+			  constructor.phone = phone;
+			},
 
-  		/**
-  		 * setFax() is a setter method the current fax
-  		 *
-  		 * @param {string} fax
-  		*/
-  		setFax : function (fax) {
-  		  constructor.fax = fax;
-  		},
+			/**
+			 * setFax() is a setter method the current fax
+			 *
+			 * @param {string} fax
+			*/
+			setFax : function (fax) {
+			  constructor.fax = fax;
+			},
 
-  		/**
-  		 * setAddress() is a setter method the current fax
-  		 *
-  		 * @param {string} address
-  		*/
-  		setAddress : function (address) {
-  		  constructor.address = address;
-  		},
+			/**
+			 * setAddress() is a setter method the current fax
+			 *
+			 * @param {string} address
+			*/
+			setAddress : function (address) {
+			  constructor.address = address;
+			},
 
 			/**
 			 * setZipCode() is a setter method the current zipcode
