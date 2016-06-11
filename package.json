@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/paranoiaproject/nodepayu",
   "dependencies": {
-    "request": "^2.65.0"
+    "request": "^2.65.0",
+    "stampit": "^2.1.1"
   }
 }
