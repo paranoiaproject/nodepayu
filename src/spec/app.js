@@ -1,10 +1,19 @@
 //import the Config builder
-const App = require('../app'),
-			config = require('../builders/config');
+const build = require('stampit'),
+			App = require('../app'),
+			config = require('../builders/config'),
+			CONSTANTS = require('../constants/config');
 
-var app = App({
+config = config({
+	merchantId: CONSTANTS.MERCHANT_ID,
+	secretKey: CONSTANTS.SECRET_KEY,
+	paymentEndpointUrl: CONSTANTS.PAYMENT_ENDPOINT_URL,
+	loyaltyInquiryEndPointUrl: CONSTANTS.LOYALTY_INQUIRY_ENDPOINT_URL,
+	paymentReturnPointUrl: CONSTANTS.PAYMENT_RETURN_ENDPOINT_URL
+});
+
+var myApp = App({
 	config: config
 });
 
-app.getConfig();
-app.getInstance();
+console.dir(config);
