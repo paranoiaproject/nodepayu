@@ -1,6 +1,6 @@
 const build = require('stampit'),
-			App = require('../models/app'),
-			config = require('../models/config');
+      App = require('../models/app'),
+      config = require('../models/config');
 
 var client = App({config: config});
 
