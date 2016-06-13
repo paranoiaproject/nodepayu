@@ -10,7 +10,7 @@ npm install nodepayu --save
 ###Initializing
 
 ```javascript
-var nodepayu = require('nodepayu')();
+const nodepayu = require('nodepayu')();
 
 nodepayu.post('endpointUrl', (response) => {
 	console.log(response); //successfull result
