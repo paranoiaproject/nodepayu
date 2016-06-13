@@ -1,5 +1,5 @@
 const build = require('stampit'),
-			defaults = require('../defaults/config');
+      defaults = require('../defaults/config');
 
 const ConfigBuilder = build({
   methods: {
