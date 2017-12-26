@@ -1,20 +1,20 @@
 # NodePayU
-NodeJS ported version of PayuClient
+Node.js-ported version of PayuClient
 
-###Setup
+### Setup
 
 ```javascript
 npm install nodepayu --save
 ```
 
-###Initializing
+###Usage
 
-```javascript
+```js
 const nodepayu = require('nodepayu')();
 
-nodepayu.post('endpointUrl', (response) => {
-	console.log(response); //successfull result
-}, (error) => {
-	console.log(error); //result with error
+nodepayu.post('<URL>', (res) => {
+  console.log(response);
+}, (err) => {
+  console.log(err);
 });
 ```
