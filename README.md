@@ -7,7 +7,7 @@ Node.js-ported version of PayuClient
 npm install nodepayu --save
 ```
 
-###Usage
+### Usage
 
 ```js
 const nodepayu = require('nodepayu')();
